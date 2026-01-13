@@ -6,6 +6,12 @@ This document explains all the steps I followed while learning and practicing Gi
 
 ## Checking the Status of the Repository
 
+- **initializes a new Git repo in the current directory.:**
+```sh
+git init
+```
+  It creates a .git/ directory where Git stores all its configuration.
+
 - **Check current repository status:**  
 ```sh
 git status  
