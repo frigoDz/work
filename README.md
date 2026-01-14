@@ -1,10 +1,10 @@
-# README.md — Git Learning Journey
+># README.md — Git Learning Journey
 
 This document explains all the steps I followed while learning and practicing Git through this project. I describe the commands I used, the reasoning behind each action, and the problems I faced along the way.
 
 ---
 
-## Checking the Status of the Repository
+>## Checking the Status of the Repository
 
 - **initializes a new Git repo in the current directory.:**
 ```sh
@@ -26,7 +26,7 @@ git status -v
 
 ---
 
-## Staging and Committing Changes
+>## Staging and Committing Changes
 
 - **Stage a file for commit:**  
 ```sh
@@ -48,7 +48,7 @@ git commit -m "<commit_message>"
 
 ---
 
-## Viewing Commit History
+>## Viewing Commit History
 
 - **View full history:**  
 ```sh
@@ -72,7 +72,7 @@ git log --pretty=format:"* %h %ad | %s (%d) [%an]" --date=short
 
 ---
 
-## Restoring Previous Versions
+>## Restoring Previous Versions
 
 - **Find the first commit:**  
 ```sh
@@ -96,7 +96,7 @@ git restore <file_name>
 
 ---
 
-## Tagging Versions
+>## Tagging Versions
 
 - **Tag the current version:**  
 ```sh
@@ -120,7 +120,7 @@ git tag
 
 ---
 
-## Undoing Changes
+>## Undoing Changes
 
 - **Revert the last commit without removing it from history:**  
 ```sh
@@ -151,7 +151,7 @@ git commit --amend --no-edit
 
 ---
 
-## Moving Files and Directories
+>## Moving Files and Directories
 
 - **Move a file and stage the change:**  
 ```sh
@@ -167,7 +167,7 @@ git commit -m "Add Makefile to run lib/hello.sh"
 
 ---
 
-## Exploring Git Internals
+>## Exploring Git Internals
 
 - `.git/` — hidden folder storing all Git data  
 - `objects/` — stores commits, trees, and blobs  
@@ -192,7 +192,7 @@ git show HEAD:<file_path>
 
 ---
 
-## Branching, Merging, and Rebasing
+>## Branching, Merging, and Rebasing
 
 - **Create a branch:**  
 ```sh
@@ -236,7 +236,7 @@ While merging main into greet, Git could not automatically merge because both br
 
 ---
 
-## Remote Repositories and Bare Repos
+>## Remote Repositories and Bare Repos
 
 - **Create a bare repository:**  
 ```sh
@@ -260,7 +260,7 @@ git pull <remote_name> <branch_name>
 
 ---
 
-## Problems Faced and Lessons Learned
+>## Problems Faced and Lessons Learned
 
 - Conflicts happen when multiple branches modify the same lines — solved manually.  
 - Forgetting to stage changes before committing caused errors — learned to always check git status.  
