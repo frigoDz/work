@@ -158,13 +158,6 @@ git commit --amend --no-edit
 git mv <file> <destination>
 ```
 
-- **Create a Makefile and commit changes:**  
-```sh
-git add Makefile  
-
-git commit -m "Add Makefile to run lib/hello.sh"
-```
-
 ---
 
 >## Exploring Git Internals
