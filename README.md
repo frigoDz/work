@@ -140,8 +140,7 @@ git restore --staged <file_name>
 - **Expire old references and clean unreachable commits:**  
 ```sh
 git reflog expire --expire=now --all  
-```
-```sh
+
 git gc --prune=now --aggressive
 ```
 
